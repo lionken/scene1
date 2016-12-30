@@ -14,7 +14,7 @@ function GK_InitProcess() {
 
 function GK_InitAudioPlayer() {
     GK.AudioPlayer = {};
-
+	var a = 11;
     if(GK.screen == GK.SCREEN_TYPE.LED || GK.screen == GK.SCREEN_TYPE.ACTIVITY) {
         GK.AudioPlayer = new GK_WebAudioPlayer();
     } else if(GK.screen == GK.SCREEN_TYPE.ANDROID) {

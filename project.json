@@ -1,0 +1,93 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 25,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 2,
+    "engineDir" : "frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","extensions","external"],
+
+    "jsList" : [
+        "src/goooku/GKConfig.js",
+
+        "src/goooku/audio/GKAudioPlayer.js",
+        "src/goooku/audio/GKAndroidAudioPlayer.js",
+        "src/goooku/audio/GKWebAudioPlayer.js",
+
+        "src/goooku/communication/GKAJAX.js",
+        "src/goooku/communication/GKGameDataSender.js",
+        "src/goooku/communication/GKHttpRequest.js",
+        "src/goooku/communication/GKHttpRequestConfig.js",
+        "src/goooku/communication/GKWebsocket.js",
+        "src/goooku/communication/GKSocketManager.js",
+
+        "src/goooku/connector/GKWebConnector.js",
+
+        "src/goooku/process/GKProcess.js",
+        "src/goooku/process/GKWebPageProcess.js",
+        "src/goooku/process/GKAndroidProcess.js",
+        "src/goooku/process/GKActivityProcess.js",
+
+        "src/goooku/result/GKError.js",
+        "src/goooku/result/GKResultCode.js",
+
+        "src/goooku/screenInterface/GKScreenInterface.js",
+        "src/goooku/screenInterface/GKWebPageInterface.js",
+        "src/goooku/screenInterface/GKAndroidInterface.js",
+        "src/goooku/screenInterface/GKActivityInterface.js",
+
+        "src/goooku/store/GKKVPStore.js",
+
+        "src/goooku/util/GKOssImageUtil.js",
+        "src/goooku/util/GKRedirectUtil.js",
+        "src/goooku/util/GKBase64Util.js",
+
+        "src/goooku/user/GKTeam.js",
+        "src/goooku/user/GKUser.js",
+        "src/goooku/user/GKUserManager.js",
+        "src/goooku/user/grouper/GKGrouperFactory.js",
+        "src/goooku/user/grouper/GKGrouper.js",
+        "src/goooku/user/grouper/GKGrouperSex.js",
+        "src/goooku/user/grouper/GKGrouperTeamAverage.js",
+        "src/goooku/user/ranker/GKRankerFactory.js",
+        "src/goooku/user/ranker/GKRanker.js",
+        "src/goooku/user/ranker/GKRankerFinal.js",
+        "src/goooku/user/ranker/GKRankerTopK.js",
+
+        "src/goooku/layer/connector/GKWebConnectorLayer.js",
+        "src/goooku/layer/connector/GKWebConnectorLayerV8.js",
+        "src/goooku/layer/counter/GKCountDownLayer.js",
+        "src/goooku/layer/counter/GKCountDownLayerV1.js",
+        "src/goooku/layer/help/GKHelp.js",
+        "src/goooku/layer/help/v1/GKHelpV1.js",
+        "src/goooku/layer/help/v1/GKHelpMoveV1.js",
+        "src/goooku/layer/help/v1/GKHelpShakeV1.js",
+        "src/goooku/layer/help/v1/GKHelpTouchV1.js",
+        "src/goooku/layer/main/GKMainLayer.js",
+        "src/goooku/layer/main/GKGameLayer.js",
+        "src/goooku/layer/mvp/GKMvp.js",
+        "src/goooku/layer/mvp/GKMvpV1.js",
+        "src/goooku/layer/mvp/GKMvpV2.js",
+        "src/goooku/layer/mvp/GKMvpV3.js",
+        "src/goooku/layer/progress/GKProgressLayer.js",
+        "src/goooku/layer/progress/GKProgressLayerV1.js",
+        "src/goooku/layer/rank/dynamic/GKDynamicRank.js",
+        "src/goooku/layer/rank/dynamic/GKDynamicRankV1.js",
+        "src/goooku/layer/rank/final/GKFinalRank.js",
+        "src/goooku/layer/rank/final/GKFinalRankV1.js",
+
+        "src/resource.js",
+        "src/model/GameConfig.js",
+        "src/model/GameConst.js",
+
+        "src/view/GameScene.js",
+        "src/view/MainLayer.js",
+        "src/view/TestLayer.js",
+
+        "src/control/GameSocketCallback.js"
+    ]
+}

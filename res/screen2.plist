@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>shuo a.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{649,2},{582,404}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{582,404}}</string>
+                <key>sourceSize</key>
+                <string>{582,404}</string>
+            </dict>
+            <key>shuo.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{645,472}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{645,472}}</string>
+                <key>sourceSize</key>
+                <string>{645,472}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>screen2.png</string>
+            <key>size</key>
+            <string>{1233,476}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:8efc1664321c7de23198870cf219d750$</string>
+            <key>textureFileName</key>
+            <string>screen2.png</string>
+        </dict>
+    </dict>
+</plist>

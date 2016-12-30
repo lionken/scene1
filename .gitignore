@@ -1,0 +1,13 @@
+.frameworks/
+.publish/html5/res/
+.src/control/
+.src/goooku/audio/
+.src/goooku/communication/
+.src/goooku/connector/
+.src/goooku/layer/
+.src/goooku/process/
+.src/goooku/result/
+.src/goooku/screenInterface/
+.src/goooku/store/
+.src/goooku/user/
+.src/goooku/util/

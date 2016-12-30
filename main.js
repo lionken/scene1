@@ -1,6 +1,6 @@
 function GK_InitProcess() {
     GK.process = {};
-
+	var a =0;
     if(GK.screen == GK.SCREEN_TYPE.LED) {
         GK.process = new GK_WebPageProcess();
     } else if(GK.screen == GK.SCREEN_TYPE.ANDROID) {
@@ -10,7 +10,6 @@ function GK_InitProcess() {
     } else {
         throw "暂时不支持该屏幕类型";
     }
-
     GK.process.configGameSocketCallback(new GameSocketCallback());
 }
 
